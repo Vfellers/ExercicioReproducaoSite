@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(hamburg-g30b6aaf1b_1920.jpg);
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh  }
+
+  body::before {
+    background-color: rgba(11, 11, 204, 0.397);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+  nav{
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+ul {
+    color: white;
+    display: flex;
+    background-color: rgb(3, 15, 121);
+    margin: 0;
+    margin-bottom: 3rem;
+   }
+
+a{
+    color: white;
+    white-space: nowrap;
+    text-decoration:none;
+}
+li{
+    padding: 1.5rem;
+    list-style-type: none;
+}
+li#img {
+    display: flex;
+    padding: 1rem;
+}
+
+main{
+    vertical-align: middle
+}
+h1{
+    color: rgb(11, 192, 11);
+    letter-spacing: 0.2rem;
+}
+
+h2{
+    margin-top: 0rem;
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+
+
